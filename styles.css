@@ -34,6 +34,7 @@ body {
   background-color: #fff;
   grid-area: header;
   display: flex;
+  gap: 20px;
   flex-direction: column;
   padding: 10px 40px;
 }
@@ -85,6 +86,57 @@ body {
 
 .search-user-container p {
   font-weight: 700;
+}
+
+.user-container {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.avatar-div {
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 64px;
+  width: 68px;
+}
+
+.avatar-div img {
+  width: 65%;
+}
+
+.user-txt {
+  font-weight: 700;
+}
+
+.greeting {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+
+.user-name {
+  font-size: 18px;
+}
+
+.actions-container {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn {
+  color: white;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  background-color: #447bbd;
+  padding: 10px 30px;
+  border: none;
+  border-radius: 15px;
 }
 
 /* ASIDE STYLES */
