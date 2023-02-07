@@ -62,6 +62,31 @@ body {
   outline: none;
 }
 
+.search-user-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.search-user-container div {
+  border-radius: 50%;
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 34px;
+  width: 38px;
+}
+
+.search-user-container img {
+  width: 65%;
+}
+
+.search-user-container p {
+  font-weight: 700;
+}
+
 /* ASIDE STYLES */
 
 .aside {
