@@ -31,8 +31,11 @@ body {
 /* HEADER STYLES */
 
 .header {
-  background-color: cornflowerblue;
+  background-color: #fff;
   grid-area: header;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
 }
 
 /* ASIDE STYLES */
@@ -59,7 +62,7 @@ body {
   cursor: pointer;
   display: flex;
   font-weight: 500;
-  gap: 15px;
+  gap: 20px;
 }
 
 /* MAIN STYLES */
