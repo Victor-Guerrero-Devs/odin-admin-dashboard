@@ -41,6 +41,25 @@ body {
   background-color: var(--clr-primary);
   color: var(--clr-text);
   grid-area: aside;
+  padding: 20px;
+}
+
+.aside__nav {
+  padding: 50px 0 0 0;
+}
+
+.aside__list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  list-style: none;
+}
+
+.aside__list-item {
+  cursor: pointer;
+  display: flex;
+  font-weight: 500;
+  gap: 15px;
 }
 
 /* MAIN STYLES */
