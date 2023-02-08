@@ -221,3 +221,25 @@ body {
   gap: 10px;
   justify-content: flex-end;
 }
+
+.side-menus {
+  width: 25%;
+}
+
+.announcements__container {
+  background-color: #fff;
+  padding: 20px 10px;
+}
+
+.announcements__container h3 {
+  font-size: 16px;
+}
+
+.announcements__container p {
+  font-size: 12px;
+}
+
+.announcements__container hr {
+  margin: 10px 0;
+  padding: 0 10px;
+}
