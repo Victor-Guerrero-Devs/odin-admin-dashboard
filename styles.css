@@ -228,7 +228,9 @@ body {
 
 .announcements__container {
   background-color: #fff;
+  border-radius: 15px;
   padding: 20px 10px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
 }
 
 .announcements__container h3 {
@@ -242,4 +244,58 @@ body {
 .announcements__container hr {
   margin: 10px 0;
   padding: 0 10px;
+}
+
+.trending {
+  margin-top: 20px;
+}
+
+.trending__log {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 15px 10px;
+  background-color: #fff;
+  border-radius: 15px;
+  box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.3);
+}
+
+.trending__item {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+}
+
+.green {
+  background-color: rgb(175, 255, 71);
+}
+
+.blue {
+  background-color: rgb(71, 151, 255);
+}
+
+.violet {
+  background-color: rgb(203, 71, 255);
+}
+
+.trending__avatar {
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 44px;
+  width: 48px;
+}
+
+.trending__avatar img {
+  width: 65%;
+}
+
+.avatar__heading {
+  font-size: 14px;
+}
+
+.avatar__text {
+  font-size: 10px;
+  color: #666;
 }
